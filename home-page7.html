@@ -1,0 +1,4697 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecom</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div
+      class="top-bar py-2 border-bottom text-secondary"
+      style="font-size: 0.85rem">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="top-links d-none d-md-flex align-items-center gap-2">
+          <a href="#" class="text-decoration-none text-secondary">About us</a>
+          <span class="text-muted">|</span>
+          <a href="#" class="text-decoration-none text-secondary">Careers</a>
+          <span class="text-muted">|</span>
+          <a href="#" class="text-decoration-none text-secondary"
+            >Open a shop</a
+          >
+        </div>
+
+        <div class="top-promo">
+          <span
+            >Free shipping for all orders over
+            <strong class="text-success">$75.00</strong></span
+          >
+        </div>
+
+        <div class="top-right d-flex align-items-center gap-3">
+          <span class="d-none d-lg-inline"
+            >Need help? Call Us:
+            <strong class="text-success">+ 1800 900</strong></span
+          >
+
+          <div class="dropdown">
+            <button
+              class="btn btn-sm dropdown-toggle p-0 text-secondary border-0"
+              type="button"
+              data-bs-toggle="dropdown">
+              <span class="me-1">🇬🇧</span> English
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+              <li><a class="dropdown-item active-lang" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Français</a></li>
+              <li><a class="dropdown-item" href="#">Español</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <button
+              class="btn btn-sm dropdown-toggle p-0 text-secondary border-0"
+              type="button"
+              data-bs-toggle="dropdown">
+              USD
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+              <li><a class="dropdown-item" href="#">USD</a></li>
+              <li><a class="dropdown-item" href="#">EUR</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="py-3 bg-white border-bottom">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a href="#" class="navbar-brand text-primary fw-bold fs-3">
+          <img src="./images/logo.svg" alt="Ecom Logo" />
+        </a>
+
+        <div
+          class="search-box d-none d-lg-flex align-items-center border rounded-2 px-2 py-1 mx-3 flex-grow-1"
+          style="max-width: 420px">
+          <select
+            class="form-select border-0 shadow-none fw-semibold text-secondary w-auto py-0 pe-4"
+            id="filterButtons">
+            <option value="all" selected>All categories</option>
+
+            <option value="Electronics">Electronics</option>
+
+            <option value="Fashion">Fashion</option>
+
+            <option value="Home & Garden">Home & Garden</option>
+          </select>
+          <span class="border-end mx-2" style="height: 20px"></span>
+          <input
+            type="text"
+            id="searchInput"
+            class="form-control border-0 shadow-none p-0 flex-grow-1"
+            placeholder="Search for items"
+            style="font-size: 0.85rem" />
+          <button
+            class="btn btn-sm text-secondary border-0 p-0 ms-2"
+            type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div
+          class="navbar navbar-expand-lg d-flex justify-content-end position-relative">
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mobileMenu"
+            aria-controls="mobileMenu"
+            aria-label="Open navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <nav class="d-none d-lg-block">
+            <ul class="navbar-nav flex-row gap-3">
+              <!-- Home -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-dark fw-semibold dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Home
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item py-2" href="./index.html"
+                      >home-page1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page2.html"
+                      >home-page2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page3.html"
+                      >home-page3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page4.html"
+                      >home-page4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page5.html"
+                      >home-page5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page6.html"
+                      >home-page6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page7.html"
+                      >home-page7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page8.html"
+                      >home-page8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-bage9.html"
+                      >home-page9</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-pages10.html"
+                      >home-page10</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Shop -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Shop
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="shopGrid1.html"
+                      >Shop Grid 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2.html"
+                      >Shop Grid 2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (2).html"
+                      >Shop Grid 3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (3).html"
+                      >Shop Grid 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopFullWidth.html"
+                      >Shop Full Width</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct.html"
+                      >Single Product</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct1.html"
+                      >Single Product 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleprodact4.html"
+                      >Single Product 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-cart.html">Shop Cart</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-checkout.html"
+                      >Shop Checkout</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-compare.html"
+                      >Shop Compare</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-wishlist.html"
+                      >Shop Wishlist</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Vendors -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Vendors
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="Vendors.html">Vendors</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="vindorsingle.html"
+                      >Vendor Single</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Pages -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Pages
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="career.html">Career</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="trim-and-condition.html"
+                      >Terms and Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="register.html">Register</a>
+                  </li>
+                  <li><a class="dropdown-item" href="login.html">Login</a></li>
+                  <li>
+                    <a class="dropdown-item" href="error.html">Error 404</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Blogs -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Blogs
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="blog-sidbar.html"
+                      >Blog Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-right-sidebar.html"
+                      >Blog Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-list.html">Blog List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-category-big.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-left-sidebar.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-right-sidebar.html"
+                      >Blog Single Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-single-no-sidebar.html"
+                      >Blog Single No Sidebar</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Contact -->
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="./contact.html">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- القائمة الجانبية للموبايل -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="mobileMenu"
+          aria-labelledby="mobileMenuLabel">
+          <!-- رأس القائمة -->
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title fw-bold" id="mobileMenuLabel">Ecom</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- محتوى القائمة -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav gap-2">
+              <!-- Home -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Home
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item py-2" href="./index.html"
+                      >home-page1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page2.html"
+                      >home-page2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page3.html"
+                      >home-page3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page4.html"
+                      >home-page4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page5.html"
+                      >home-page5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page6.html"
+                      >home-page6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page7.html"
+                      >home-page7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page8.html"
+                      >home-page8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-bage9.html"
+                      >home-page9</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-pages10.html"
+                      >home-page10</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Shop -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Shop
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="shopGrid1.html"
+                      >Shop Grid 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2.html"
+                      >Shop Grid 2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (2).html"
+                      >Shop Grid 3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (3).html"
+                      >Shop Grid 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopFullWidth.html"
+                      >Shop Full Width</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct.html"
+                      >Single Product</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct1.html"
+                      >Single Product 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleprodact4.html"
+                      >Single Product 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-cart.html">Shop Cart</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-checkout.html"
+                      >Shop Checkout</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-compare.html"
+                      >Shop Compare</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-wishlist.html"
+                      >Shop Wishlist</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Vendors -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Vendors
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="Vendors.html">Vendors</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="vindorsingle.html"
+                      >Vendor Single</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Pages -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Pages
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="career.html">Career</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="trim-and-condition.html"
+                      >Terms and Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="register.html">Register</a>
+                  </li>
+                  <li><a class="dropdown-item" href="login.html">Login</a></li>
+                  <li>
+                    <a class="dropdown-item" href="error.html">Error 404</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Blogs -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Blogs
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="blog-sidbar.html"
+                      >Blog Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-right-sidebar.html"
+                      >Blog Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-list.html">Blog List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-category-big.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-left-sidebar.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-right-sidebar.html"
+                      >Blog Single Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-single-no-sidebar.html"
+                      >Blog Single No Sidebar</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Contact -->
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="./contact.html">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center gap-3 ms-3">
+          <a href="#" class="text-secondary fs-5 text-decoration-none">
+            <i class="fa-regular fa-user"></i>
+          </a>
+          <a
+            href="#"
+            class="text-secondary fs-5 text-decoration-none position-relative">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </a>
+          <a
+            href="#"
+            class="text-secondary fs-5 text-decoration-none position-relative">
+            <i class="fa-regular fa-heart"></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+              >5</span
+            >
+          </a>
+          <button
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#cartOffcanvas"
+            class="cart-button text-secondary fs-5 text-decoration-none position-relative border-0 bg-light">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span
+              id="cartCount"
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+              >0</span
+            >
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas">
+      <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title fw-bold">
+          <i class="fa fa-shopping-cart text-primary"></i>
+          Shopping Cart
+        </h5>
+
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"></button>
+      </div>
+
+      <div class="offcanvas-body d-flex flex-column">
+        <div id="offcanvasCartItems"></div>
+
+        <div class="mt-auto">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <span class="fw-bold"> Total: </span>
+
+            <span class="fw-bold text-primary" id="offcanvasCartTotal">
+              $0.00
+            </span>
+          </div>
+
+          <a
+            href="shop-checkout.html"
+            class="btn btn-primary w-100 fw-bold mb-2"
+            style="background-color: #425a8b">
+            Proceed to Checkout
+          </a>
+
+          <a href="shop-cart.html" class="btn btn-submit w-100 fw-bold">
+            View Cart
+          </a>
+        </div>
+      </div>
+    </div>
+
+<div class="container">
+      <ul class="d-flex gap-3 bg-light">
+        <li class="list-unstyled"><a class="text-decoration-none"  href="index.html">Home</a></li>
+        <li class="list-unstyled"><a class="text-decoration-none" href="index.html"><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span>Pages</a></li>
+        <li class="list-unstyled"><a class="text-decoration-none" href="home-page7.html"><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span>home page 7</a></li>
+      </ul>
+    </div>
+    <section class="container my-5">
+      <div class="row g-4">
+        <div class="col-lg-8">
+          <div
+            id="kidsHeroCarousel"
+            class="carousel slide rounded-4 overflow-hidden shadow-sm"
+            style="height: 380px"
+            data-bs-ride="carousel"
+            data-bs-interval="3500"
+          >
+            <div class="carousel-inner h-100">
+              <div class="carousel-item active h-100 position-relative">
+                <img
+                  src="./images/banner-3.png"
+                  class="w-100 h-100 object-fit-cover"
+                  alt="Let's Play All Day"
+                />
+                <div
+                  class="position-absolute top-50 start-0 translate-middle-y p-4 p-md-5"
+                >
+                  <h1
+                    class="fw-bold text-primary display-5 mb-3"
+                    style="font-family: sans-serif"
+                  >
+                    LET'S PLAY<br />ALL DAY
+                  </h1>
+                  <a
+                    href="#"
+                    class="btn btn-warning fw-bold px-4 py-2 rounded-pill shadow-sm"
+                    >SHOP NOW</a
+                  >
+                </div>
+              </div>
+
+              <div class="carousel-item h-100 position-relative">
+                <img
+                  src="./images/banner.png"
+                  class="w-100 h-100 object-fit-cover"
+                  alt="New Toys Collection"
+                />
+                <div
+                  class="position-absolute top-50 start-0 translate-middle-y p-4 p-md-5"
+                >
+                  <h1 class="fw-bold text-danger display-5 mb-3">
+                    NEW TOYS<br />ARRIVED
+                  </h1>
+                  <a
+                    href="#"
+                    class="btn btn-warning fw-bold px-4 py-2 rounded-pill shadow-sm"
+                    >DISCOVER MORE</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-indicators mb-3">
+              <button
+                type="button"
+                data-bs-target="#kidsHeroCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#kidsHeroCarousel"
+                data-bs-slide-to="1"
+              ></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div
+            class="rounded-4 overflow-hidden shadow-sm h-100"
+            style="min-height: 380px"
+          >
+            <img
+              src="./images/banner2.png"
+              class="w-100 h-100 object-fit-cover"
+              alt="Meet The Shrub Adubs"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="brandsCarousel"
+        class="carousel slide mt-4 pt-3"
+        data-bs-ride="carousel"
+        data-bs-interval="3000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="d-flex justify-content-between align-items-center gap-2 px-2"
+            >
+              <img
+                src="./images/logo1.png"
+                alt="PlayDoh"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo11.png"
+                alt="Risk"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo4.png"
+                alt="Plastiline"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo7.png"
+                alt="Galt"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo12.png"
+                alt="Smoby"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo11.png"
+                alt="Furby"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo15.png"
+                alt="Lego"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo11.png"
+                alt="Little Tikes"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo8.png"
+                alt="Crayola"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo1.png"
+                alt="Famosa"
+                style="height: 35px; object-fit: contain"
+              />
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-between align-items-center gap-2 px-2"
+            >
+              <img
+                src="./images/logo1.png"
+                alt="Flair"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo11.png"
+                alt="Takara Tomy"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo12.png"
+                alt="Leap Frog"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo15.png"
+                alt="Hornby"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo4.png"
+                alt="Lego"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo8.png"
+                alt="PlayDoh"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo8.png"
+                alt="Furby"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo12.png"
+                alt="Smoby"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo15.png"
+                alt="Crayola"
+                style="height: 35px; object-fit: contain"
+              />
+              <img
+                src="./images/logo4.png"
+                alt="Galt"
+                style="height: 35px; object-fit: contain"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container my-5">
+      <h3 class="fw-bold text-center mb-4" style="color: #425a8b">
+        Most Popular Categories
+      </h3>
+
+      <div
+        id="categoriesCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="3500"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="row row-cols-2 row-cols-sm-3 row-cols-md-5 row-cols-lg-9 g-3 text-center"
+            >
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy1 (1).png"
+                    alt="Teddy bear"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">Teddy bear</h6>
+                  <span class="text-muted extra-small">2356 items</span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy3.png"
+                    alt="Teddy bear"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">Teddy bear</h6>
+                  <span class="text-muted extra-small">2356 items</span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy9.png"
+                    alt="Teddy bear"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">Teddy bear</h6>
+                  <span class="text-muted extra-small">2356 items</span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy8.png"
+                    alt="Teddy bear"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">Teddy bear</h6>
+                  <span class="text-muted extra-small">2356 items</span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy6.png"
+                    alt="Teddy bear"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">Teddy bear</h6>
+                  <span class="text-muted extra-small">2356 items</span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy4.png"
+                    alt="Teddy bear"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">Teddy bear</h6>
+                  <span class="text-muted extra-small">2356 items</span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy1 (1).png"
+                    alt="Teddy bear"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">Teddy bear</h6>
+                  <span class="text-muted extra-small">2356 items</span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy3.png"
+                    alt="Teddy bear"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">Teddy bear</h6>
+                  <span class="text-muted extra-small">2356 items</span>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy6 (1).png"
+                    alt="Teddy bear"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">Teddy bear</h6>
+                  <span class="text-muted extra-small">2356 items</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="row row-cols-2 row-cols-sm-3 row-cols-md-5 row-cols-lg-9 g-3 text-center"
+            >
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy1.png"
+                    alt="Toys"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">
+                    Dolls & Toys
+                  </h6>
+                  <span class="text-muted extra-small">1840 items</span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy6.png"
+                    alt="Toys"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">Baby Gear</h6>
+                  <span class="text-muted extra-small">920 items</span>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy4.png"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">
+                    Action Figures
+                  </h6>
+                  <span class="text-muted extra-small">1120 items</span>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy8.png"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">
+                    Board Games
+                  </h6>
+                  <span class="text-muted extra-small">540 items</span>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy6 (1).png"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">Puzzles</h6>
+                  <span class="text-muted extra-small">310 items</span>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy1 (1).png"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">
+                    Outdoor Play
+                  </h6>
+                  <span class="text-muted extra-small">780 items</span>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy4.png"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">
+                    Electronic Toys
+                  </h6>
+                  <span class="text-muted extra-small">450 items</span>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy8.png"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">
+                    Educational
+                  </h6>
+                  <span class="text-muted extra-small">1290 items</span>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="p-2 border rounded-3 h-100 bg-white shadow-sm hover-top"
+                >
+                  <img
+                    src="./images/toy6.png"
+                    class="img-fluid mb-2"
+                    style="height: 60px; object-fit: contain"
+                  />
+                  <h6 class="fw-bold mb-0 extra-small text-dark">
+                    Wooden Toys
+                  </h6>
+                  <span class="text-muted extra-small">670 items</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container my-5">
+      <div class="p-4 p-md-5 rounded-3" style="background-color: #e0f2fe">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-between mb-4 gap-3"
+        >
+          <div>
+            <h2 class="fw-bold text-dark mb-1 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-bolt text-warning fs-3"></i>
+              SHOCKING DEAL
+            </h2>
+            <p class="text-secondary small mb-0">
+              The opportunity will quickly pass. Take it!
+            </p>
+          </div>
+
+          <div
+            class="d-flex align-items-center gap-2 bg-white px-3 py-2 rounded-2 shadow-sm"
+          >
+            <span class="text-secondary small me-2 fw-semibold"
+              >Hurry up!<br /><small
+                class="text-muted fw-normal"
+                style="font-size: 10px"
+                >Offers end in:</small
+              ></span
+            >
+            <div class="d-flex gap-1 text-center text-white fw-bold small">
+              <span class="bg-danger rounded px-2 py-1">00</span> :
+              <span class="bg-danger rounded px-2 py-1">00</span> :
+              <span class="bg-danger rounded px-2 py-1">00</span> :
+              <span class="bg-danger rounded px-2 py-1">00</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3"
+        >
+          <div class="col">
+            <div
+              class="card h-100 p-3 rounded-3 deal-product-card position-relative d-flex flex-column justify-content-between"
+            >
+              <div
+                class="d-flex justify-content-between align-items-start position-absolute top-0 start-0 w-100 p-2 z-1"
+              >
+                <span class="badge bg-danger" style="font-size: 10px"
+                  >-10%</span
+                >
+
+                <div class="product-hover-action d-flex flex-column gap-1">
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                    title="Wishlist"
+                  >
+                    <i
+                      class="fa-regular fa-heart text-secondary btn-outline-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                    title="Quick View"
+                  >
+                    <i
+                      class="fa-regular fa-eye text-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                    title="Compare"
+                  >
+                    <i
+                      class="fa-solid fa-code-compare text-secondary btn-outline-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+
+              <div>
+                <div class="text-center my-2">
+                  <img
+                    src="./images/Home 3 - Ecom Marketplace Template_files/imgsp4.png"
+                    class="img-fluid"
+                    alt="iMac"
+                    style="height: 120px; object-fit: contain"
+                  />
+                </div>
+
+                <div
+                  class="bg-primary text-white text-center rounded py-1 mb-2 fw-bold"
+                  style="font-size: 10px"
+                >
+                  00 : 00 : 00 : 00<br />
+                  <span class="fw-normal" style="font-size: 8px"
+                    >Day Hour Min Sec</span
+                  >
+                </div>
+
+                <small class="text-muted d-block" style="font-size: 11px"
+                  >Apple</small
+                >
+                <h6
+                  class="fw-bold text-dark text-truncate mb-1"
+                  style="font-size: 13px"
+                >
+                  2022 Apple iMac with Retina 5K Display
+                </h6>
+
+                <div class="text-warning small mb-2" style="font-size: 10px">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span class="text-muted ms-1">(65)</span>
+                </div>
+
+                <div class="d-flex align-items-baseline gap-2 mb-3">
+                  <span class="fw-bold text-primary">$2856.3</span>
+                  <span
+                    class="text-muted text-decoration-line-through small"
+                    style="font-size: 11px"
+                    >$3225.6</span
+                  >
+                </div>
+              </div>
+
+              <div class="card-action-area">
+                <div class="stock-progress">
+                  <div class="progress mb-1" style="height: 6px">
+                    <div
+                      class="progress-bar bg-warning"
+                      style="width: 15%"
+                    ></div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between text-muted"
+                    style="font-size: 10px"
+                  >
+                    <span>Available: 568</span>
+                    <span>Sold: 28</span>
+                  </div>
+                </div>
+
+                <div class="hover-btn-wrapper">
+                  <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card h-100 p-3 rounded-3 deal-product-card position-relative d-flex flex-column justify-content-between"
+            >
+              <div
+                class="d-flex justify-content-between align-items-start position-absolute top-0 start-0 w-100 p-2 z-1"
+              >
+                <span class="badge bg-danger" style="font-size: 10px">-5%</span>
+                <div class="product-hover-action d-flex flex-column gap-1">
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                  >
+                    <i
+                      class="fa-regular fa-heart text-secondary btn-outline-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                  >
+                    <i
+                      class="fa-regular fa-eye text-secondary btn-outline-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-outline-secondary rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                  >
+                    <i
+                      class="fa-solid fa-code-compare text-secondary btn-outline-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+              <div>
+                <div class="text-center my-2">
+                  <img
+                    src="./images/Home 3 - Ecom Marketplace Template_files/imgsp1.png"
+                    class="img-fluid"
+                    alt="Headphones"
+                    style="height: 120px; object-fit: contain"
+                  />
+                </div>
+                <div
+                  class="bg-primary text-white text-center rounded py-1 mb-2 fw-bold"
+                  style="font-size: 10px"
+                >
+                  00 : 00 : 00 : 00<br /><span
+                    class="fw-normal"
+                    style="font-size: 8px"
+                    >Day Hour Min Sec</span
+                  >
+                </div>
+                <small class="text-muted d-block" style="font-size: 11px"
+                  >Philips</small
+                >
+                <h6
+                  class="fw-bold text-dark text-truncate mb-1"
+                  style="font-size: 13px"
+                >
+                  Philips H4205 Wireless Headphones
+                </h6>
+                <div class="text-warning small mb-2" style="font-size: 10px">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <span class="text-muted ms-1">(65)</span>
+                </div>
+                <div class="d-flex align-items-baseline gap-2 mb-3">
+                  <span class="fw-bold text-primary">$170.3</span>
+                  <span
+                    class="text-muted text-decoration-line-through small"
+                    style="font-size: 11px"
+                    >$173.2</span
+                  >
+                </div>
+              </div>
+              <div class="card-action-area">
+                <div class="stock-progress">
+                  <div class="progress mb-1" style="height: 6px">
+                    <div
+                      class="progress-bar bg-warning"
+                      style="width: 25%"
+                    ></div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between text-muted"
+                    style="font-size: 10px"
+                  >
+                    <span>Available: 568</span><span>Sold: 125</span>
+                  </div>
+                </div>
+                <div class="hover-btn-wrapper">
+                  <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(2)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card h-100 p-3 rounded-3 deal-product-card position-relative d-flex flex-column justify-content-between"
+            >
+              <div
+                class="d-flex justify-content-between align-items-start position-absolute top-0 start-0 w-100 p-2 z-1"
+              >
+                <span class="badge bg-danger" style="font-size: 10px"
+                  >-15%</span
+                >
+                <div class="product-hover-action d-flex flex-column gap-1">
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                  >
+                    <i
+                      class="fa-regular fa-heart text-secondary btn-outline-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                  >
+                    <i
+                      class="fa-regular fa-eye text-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                  >
+                    <i
+                      class="fa-solid fa-code-compare text-secondary btn-outline-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+              <div>
+                <div class="text-center my-2">
+                  <img
+                    src="./images/Home 3 - Ecom Marketplace Template_files/img-fridge.png"
+                    class="img-fluid"
+                    alt="MacBook Air"
+                    style="height: 120px; object-fit: contain"
+                  />
+                </div>
+                <div
+                  class="bg-primary text-white text-center rounded py-1 mb-2 fw-bold"
+                  style="font-size: 10px"
+                >
+                  00 : 00 : 00 : 00<br /><span
+                    class="fw-normal"
+                    style="font-size: 8px"
+                    >Day Hour Min Sec</span
+                  >
+                </div>
+                <small class="text-muted d-block" style="font-size: 11px"
+                  >Apple</small
+                >
+                <h6
+                  class="fw-bold text-dark text-truncate mb-1"
+                  style="font-size: 13px"
+                >
+                  2020 Apple MacBook Air Laptop
+                </h6>
+                <div class="text-warning small mb-2" style="font-size: 10px">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <span class="text-muted ms-1">(65)</span>
+                </div>
+                <div class="d-flex align-items-baseline gap-2 mb-3">
+                  <span class="fw-bold text-primary">$169</span>
+                  <span
+                    class="text-muted text-decoration-line-through small"
+                    style="font-size: 11px"
+                    >$225</span
+                  >
+                </div>
+              </div>
+              <div class="card-action-area">
+                <div class="stock-progress">
+                  <div class="progress mb-1" style="height: 6px">
+                    <div
+                      class="progress-bar bg-warning"
+                      style="width: 10%"
+                    ></div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between text-muted"
+                    style="font-size: 10px"
+                  >
+                    <span>Available: 568</span><span>Sold: 16</span>
+                  </div>
+                </div>
+                <div class="hover-btn-wrapper">
+                  <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(3)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card h-100 p-3 rounded-3 deal-product-card position-relative d-flex flex-column justify-content-between"
+            >
+              <div
+                class="d-flex justify-content-between align-items-start position-absolute top-0 start-0 w-100 p-2 z-1"
+              >
+                <span class="badge bg-danger" style="font-size: 10px"
+                  >-17%</span
+                >
+                <div class="product-hover-action d-flex flex-column gap-1">
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                  >
+                    <i
+                      class="fa-regular fa-heart text-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                  >
+                    <i
+                      class="fa-regular fa-eye text-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                  >
+                    <i
+                      class="fa-solid fa-code-compare text-secondary btn-outline-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+              <div>
+                <div class="text-center my-2">
+                  <img
+                    src="./images/Home 3 - Ecom Marketplace Template_files/imgsp5.png"
+                    class="img-fluid"
+                    alt="Apple Watch"
+                    style="height: 120px; object-fit: contain"
+                  />
+                </div>
+                <div
+                  class="bg-primary text-white text-center rounded py-1 mb-2 fw-bold"
+                  style="font-size: 10px"
+                >
+                  00 : 00 : 00 : 00<br /><span
+                    class="fw-normal"
+                    style="font-size: 8px"
+                    >Day Hour Min Sec</span
+                  >
+                </div>
+                <small class="text-muted d-block" style="font-size: 11px"
+                  >Apple</small
+                >
+                <h6
+                  class="fw-bold text-dark text-truncate mb-1"
+                  style="font-size: 13px"
+                >
+                  Apple Watch Series 8 [GPS 45mm]
+                </h6>
+                <div class="text-warning small mb-2" style="font-size: 10px">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <span class="text-muted ms-1">(65)</span>
+                </div>
+                <div class="d-flex align-items-baseline gap-2 mb-3">
+                  <span class="fw-bold text-primary">$2514.3</span>
+                  <span
+                    class="text-muted text-decoration-line-through small"
+                    style="font-size: 11px"
+                    >$2756.6</span
+                  >
+                </div>
+              </div>
+              <div class="card-action-area">
+                <div class="stock-progress">
+                  <div class="progress mb-1" style="height: 6px">
+                    <div
+                      class="progress-bar bg-warning"
+                      style="width: 30%"
+                    ></div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between text-muted"
+                    style="font-size: 10px"
+                  >
+                    <span>Available: 568</span><span>Sold: 185</span>
+                  </div>
+                </div>
+                <div class="hover-btn-wrapper">
+                  <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(4)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card h-100 p-3 rounded-3 deal-product-card position-relative d-flex flex-column justify-content-between"
+            >
+              <div
+                class="d-flex justify-content-between align-items-start position-absolute top-0 start-0 w-100 p-2 z-1"
+              >
+                <span class="badge bg-danger" style="font-size: 10px"
+                  >-30%</span
+                >
+                <div class="product-hover-action d-flex flex-column gap-1">
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                  >
+                    <i
+                      class="fa-regular fa-heart text-secondary btn-outline-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                  >
+                    <i
+                      class="fa-regular fa-eye text-secondary btn-outline-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-light rounded-circle shadow-sm p-0 d-flex align-items-center justify-content-center"
+                    style="width: 28px; height: 28px"
+                  >
+                    <i
+                      class="fa-solid fa-code-compare text-secondary btn-outline-secondary"
+                      style="font-size: 11px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+              <div>
+                <div class="text-center my-2">
+                  <img
+                    src="./images/Home 3 - Ecom Marketplace Template_files/blog-3.jpg"
+                    class="img-fluid"
+                    alt="Camera"
+                    style="height: 120px; object-fit: contain"
+                  />
+                </div>
+                <div
+                  class="bg-primary text-white text-center rounded py-1 mb-2 fw-bold"
+                  style="font-size: 10px"
+                >
+                  00 : 00 : 00 : 00<br /><span
+                    class="fw-normal"
+                    style="font-size: 8px"
+                    >Day Hour Min Sec</span
+                  >
+                </div>
+                <small class="text-muted d-block" style="font-size: 11px"
+                  >Kami Tech</small
+                >
+                <h6
+                  class="fw-bold text-dark text-truncate mb-1"
+                  style="font-size: 13px"
+                >
+                  Kami by YI 4pc 1080p Home Security
+                </h6>
+                <div class="text-warning small mb-2" style="font-size: 10px">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <span class="text-muted ms-1">(65)</span>
+                </div>
+                <div class="d-flex align-items-baseline gap-2 mb-3">
+                  <span class="fw-bold text-primary">$115.0</span>
+                  <span
+                    class="text-muted text-decoration-line-through small"
+                    style="font-size: 11px"
+                    >$125.6</span
+                  >
+                </div>
+              </div>
+              <div class="card-action-area">
+                <div class="stock-progress">
+                  <div class="progress mb-1" style="height: 6px">
+                    <div
+                      class="progress-bar bg-warning"
+                      style="width: 15%"
+                    ></div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between text-muted"
+                    style="font-size: 10px"
+                  >
+                    <span>Available: 568</span><span>Sold: 68</span>
+                  </div>
+                </div>
+                <div class="hover-btn-wrapper">
+                  <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(5)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="container my-5">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div
+            class="rounded-4 p-4 h-100 d-flex justify-content-between align-items-center position-relative overflow-hidden"
+            style="background-color: #e0f2fe"
+          >
+            <div class="z-1 pe-2">
+              <span class="text-primary fw-semibold extra-small d-block mb-1"
+                >10% SALE OFF</span
+              >
+              <h5 class="fw-bold text-dark mb-3">
+                Buy Soft Spongy<br />Teddy Bear
+              </h5>
+              <a
+                href="#"
+                class="btn btn-warning text-dark fw-bold px-3 py-2 rounded-2 extra-small border-0"
+                style="background-color: #f7a01d"
+              >
+                Shop Now <i class="fa-solid fa-caret-right ms-1"></i>
+              </a>
+            </div>
+            <div style="width: 110px; height: 110px" class="flex-shrink-0">
+              <img
+                src="./images/logo7.png"
+                class="w-100 h-100 object-fit-contain"
+                alt="Teddy Bear"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div
+            class="rounded-4 p-4 h-100 d-flex justify-content-between align-items-center position-relative overflow-hidden"
+            style="background-color: #fde8e8"
+          >
+            <div class="z-1 pe-2">
+              <span class="text-danger fw-semibold extra-small d-block mb-1"
+                >BIG DISCOUNT</span
+              >
+              <h5 class="fw-bold text-dark mb-3">Wooden toy<br />products</h5>
+              <a
+                href="#"
+                class="btn btn-warning text-dark fw-bold px-3 py-2 rounded-2 extra-small border-0"
+                style="background-color: #f7a01d"
+              >
+                Shop Now <i class="fa-solid fa-caret-right ms-1"></i>
+              </a>
+            </div>
+            <div style="width: 110px; height: 110px" class="flex-shrink-0">
+              <img
+                src="./images/toy3.png"
+                class="w-100 h-100 object-fit-contain"
+                alt="Wooden Toy"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div
+            class="rounded-4 p-4 h-100 d-flex justify-content-between align-items-center position-relative overflow-hidden"
+            style="background-color: #eef2ff"
+          >
+            <div class="z-1 pe-2">
+              <span class="text-primary fw-semibold extra-small d-block mb-1"
+                >FLAT 50% DISCOUNT</span
+              >
+              <h5 class="fw-bold text-dark mb-3">
+                Milk powder for<br />mother & baby
+              </h5>
+              <a
+                href="#"
+                class="btn btn-warning text-dark fw-bold px-3 py-2 rounded-2 extra-small border-0"
+                style="background-color: #f7a01d"
+              >
+                Shop Now <i class="fa-solid fa-caret-right ms-1"></i>
+              </a>
+            </div>
+            <div style="width: 110px; height: 110px" class="flex-shrink-0">
+              <img
+                src="./images/toy4.png"
+                class="w-100 h-100 object-fit-contain"
+                alt="Milk Powder"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container my-5">
+      <div
+        class="d-flex flex-wrap justify-content-between align-items-end mb-4 border-bottom pb-3"
+      >
+        <div>
+          <h3 class="fw-bold text-dark mb-1">Milk Powders</h3>
+          <p class="text-muted small mb-0">Special products in this month.</p>
+        </div>
+
+        <!-- Countdown Timer & View All -->
+        <div class="d-flex align-items-center gap-3">
+          <div class="d-flex align-items-center gap-2">
+            <span class="fw-bold small text-dark me-1"
+              >Hurry up!<br /><small class="text-muted fw-normal"
+                >Offers end in:</small
+              ></span
+            >
+            <div
+              class="bg-warning text-white fw-bold rounded px-2 py-1 text-center"
+              style="min-width: 38px"
+            >
+              00<br /><small style="font-size: 10px" class="fw-normal"
+                >Day</small
+              >
+            </div>
+            :
+            <div
+              class="bg-warning text-white fw-bold rounded px-2 py-1 text-center"
+              style="min-width: 38px"
+            >
+              00<br /><small style="font-size: 10px" class="fw-normal"
+                >Hour</small
+              >
+            </div>
+            :
+            <div
+              class="bg-warning text-white fw-bold rounded px-2 py-1 text-center"
+              style="min-width: 38px"
+            >
+              00<br /><small style="font-size: 10px" class="fw-normal"
+                >Min</small
+              >
+            </div>
+            :
+            <div
+              class="bg-warning text-white fw-bold rounded px-2 py-1 text-center"
+              style="min-width: 38px"
+            >
+              00<br /><small style="font-size: 10px" class="fw-normal"
+                >Sec</small
+              >
+            </div>
+          </div>
+          <a href="#" class="text-decoration-none fw-bold text-dark small ms-3"
+            >View All <i class="fa-solid fa-arrow-right ms-1"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        <!-- Left Sidebar Links -->
+        <div class="col-lg-3 col-md-4">
+          <div class="bg-light p-3 rounded-3 h-100">
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-2 small">
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Porridge for baby food</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Coffee Creamers</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Dairy Milks</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Snack seasoning</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Flavored Milks</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i>Half
+                  & Half Creams</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Heavy Creams</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Light Creams</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Whipping Creams</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Cereal weaning</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Vitamins increase</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Weaning powder</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-9 col-md-8">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
+            <div class="col">
+              <div
+                class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+              >
+                <span
+                  class="badge bg-warning position-absolute top-0 start-0 m-2 px-2 py-1 fs-7"
+                  >-17%</span
+                >
+                <div class="text-center my-2" style="height: 140px">
+                  <img
+                    src="./images/sp2.png"
+                    class="mw-100 mh-100 object-fit-contain"
+                    alt="Product"
+                  />
+                </div>
+                <div
+                  class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+                  style="font-size: 10px"
+                >
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Day</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Hour</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Min</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Sec</span
+                    >
+                  </div>
+                </div>
+                <div class="mt-auto">
+                  <span class="text-muted extra-small d-block">Apple</span>
+                  <h6 class="card-title text-truncate-2 small fw-bold mb-1">
+                    2022 Apple iMac with Retina 5K Display 8GB RAM...
+                  </h6>
+                  <div class="text-warning extra-small mb-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+
+                    <span class="text-muted">(65)</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 mb-3">
+                    <span class="fw-bold text-primary">$2856.3</span>
+                    <span
+                      class="text-muted text-decoration-line-through extra-small"
+                      >$3225.6</span
+                    >
+                  </div>
+                  <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(6)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+              >
+                <div class="text-center my-2" style="height: 140px">
+                  <img
+                    src="./images/sp4.png"
+                    class="mw-100 mh-100 object-fit-contain"
+                    alt="Product"
+                  />
+                </div>
+                <div
+                  class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+                  style="font-size: 10px"
+                >
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Day</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Hour</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Min</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Sec</span
+                    >
+                  </div>
+                </div>
+                <div class="mt-auto">
+                  <span class="text-muted extra-small d-block">Apple</span>
+                  <h6 class="card-title text-truncate-2 small fw-bold mb-1">
+                    2022 Apple iMac with Retina 5K Display 8GB RAM...
+                  </h6>
+                  <div class="text-warning extra-small mb-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <span class="text-muted">(65)</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 mb-3">
+                    <span class="fw-bold text-primary">$2856.3</span>
+                    <span
+                      class="text-muted text-decoration-line-through extra-small"
+                      >$3225.6</span
+                    >
+                  </div>
+                  <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(7)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+              >
+                <div class="text-center my-2" style="height: 140px">
+                  <img
+                    src="./images/sp2.png"
+                    class="mw-100 mh-100 object-fit-contain"
+                    alt="Product"
+                  />
+                </div>
+                <div
+                  class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+                  style="font-size: 10px"
+                >
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Day</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Hour</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Min</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Sec</span
+                    >
+                  </div>
+                </div>
+                <div class="mt-auto">
+                  <span class="text-muted extra-small d-block">Apple</span>
+                  <h6 class="card-title text-truncate-2 small fw-bold mb-1">
+                    2022 Apple iMac with Retina 5K Display 8GB RAM...
+                  </h6>
+                  <div class="text-warning extra-small mb-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+
+                    <span class="text-muted">(65)</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 mb-3">
+                    <span class="fw-bold text-primary">$2856.3</span>
+                    <span
+                      class="text-muted text-decoration-line-through extra-small"
+                      >$3225.6</span
+                    >
+                  </div>
+                  <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(9)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+              >
+                <div class="text-center my-2" style="height: 140px">
+                  <img
+                    src="./images/sp1.png"
+                    class="mw-100 mh-100 object-fit-contain"
+                    alt="Product"
+                  />
+                </div>
+                <div
+                  class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+                  style="font-size: 10px"
+                >
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Day</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Hour</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Min</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Sec</span
+                    >
+                  </div>
+                </div>
+                <div class="mt-auto">
+                  <span class="text-muted extra-small d-block">Apple</span>
+                  <h6 class="card-title text-truncate-2 small fw-bold mb-1">
+                    2022 Apple iMac with Retina 5K Display 8GB RAM...
+                  </h6>
+                  <div class="text-warning extra-small mb-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+
+                    <span class="text-muted">(65)</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 mb-3">
+                    <span class="fw-bold text-primary">$2856.3</span>
+                    <span
+                      class="text-muted text-decoration-line-through extra-small"
+                      >$3225.6</span
+                    >
+                  </div>
+                  <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(10)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container my-4">
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div
+            class="rounded-3 overflow-hidden border shadow-sm"
+            style="height: 140px"
+          >
+            <a href="#">
+              <img
+                src="./images/ads1.png"
+                class="w-100 h-100 object-fit-cover"
+                alt="Promo Banner 1"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div
+            class="rounded-3 overflow-hidden border shadow-sm"
+            style="height: 140px"
+          >
+            <a href="#">
+              <img
+                src="./images/ads2.png"
+                class="w-100 h-100 object-fit-cover"
+                alt="Promo Banner 2"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div
+            class="rounded-3 overflow-hidden border shadow-sm"
+            style="height: 140px"
+          >
+            <a href="#">
+              <img
+                src="./images/ads3.png"
+                class="w-100 h-100 object-fit-cover"
+                alt="Promo Banner 3"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container my-5">
+      <div
+        class="d-flex flex-wrap justify-content-between align-items-end mb-4 border-bottom pb-3"
+      >
+        <div>
+          <h3 class="fw-bold text-dark mb-1">Milk Powders</h3>
+          <p class="text-muted small mb-0">Special products in this month.</p>
+        </div>
+
+        <!-- Countdown Timer & View All -->
+        <div class="d-flex align-items-center gap-3">
+          <div class="d-flex align-items-center gap-2">
+            <span class="fw-bold small text-dark me-1"
+              >Hurry up!<br /><small class="text-muted fw-normal"
+                >Offers end in:</small
+              ></span
+            >
+            <div
+              class="bg-warning text-white fw-bold rounded px-2 py-1 text-center"
+              style="min-width: 38px"
+            >
+              00<br /><small style="font-size: 10px" class="fw-normal"
+                >Day</small
+              >
+            </div>
+            :
+            <div
+              class="bg-warning text-white fw-bold rounded px-2 py-1 text-center"
+              style="min-width: 38px"
+            >
+              00<br /><small style="font-size: 10px" class="fw-normal"
+                >Hour</small
+              >
+            </div>
+            :
+            <div
+              class="bg-warning text-white fw-bold rounded px-2 py-1 text-center"
+              style="min-width: 38px"
+            >
+              00<br /><small style="font-size: 10px" class="fw-normal"
+                >Min</small
+              >
+            </div>
+            :
+            <div
+              class="bg-warning text-white fw-bold rounded px-2 py-1 text-center"
+              style="min-width: 38px"
+            >
+              00<br /><small style="font-size: 10px" class="fw-normal"
+                >Sec</small
+              >
+            </div>
+          </div>
+          <a href="#" class="text-decoration-none fw-bold text-dark small ms-3"
+            >View All <i class="fa-solid fa-arrow-right ms-1"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        <!-- Left Sidebar Links -->
+        <div class="col-lg-3 col-md-4">
+          <div class="bg-light p-3 rounded-3 h-100">
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-2 small">
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Porridge for baby food</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Coffee Creamers</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Dairy Milks</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Snack seasoning</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Flavored Milks</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i>Half
+                  & Half Creams</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Heavy Creams</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Light Creams</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Whipping Creams</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Cereal weaning</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Vitamins increase</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none d-block py-1"
+                  ><i class="fa-solid fa-caret-right me-2 text-primary"></i
+                  >Weaning powder</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-9 col-md-8">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
+            <div class="col">
+              <div
+                class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+              >
+                <span
+                  class="badge bg-warning position-absolute top-0 start-0 m-2 px-2 py-1 fs-7"
+                  >-17%</span
+                >
+                <div class="text-center my-2" style="height: 140px">
+                  <img
+                    src="./images/sp2.png"
+                    class="mw-100 mh-100 object-fit-contain"
+                    alt="Product"
+                  />
+                </div>
+                <div
+                  class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+                  style="font-size: 10px"
+                >
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Day</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Hour</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Min</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Sec</span
+                    >
+                  </div>
+                </div>
+                <div class="mt-auto">
+                  <span class="text-muted extra-small d-block">Apple</span>
+                  <h6 class="card-title text-truncate-2 small fw-bold mb-1">
+                    2022 Apple iMac with Retina 5K Display 8GB RAM...
+                  </h6>
+                  <div class="text-warning extra-small mb-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+
+                    <span class="text-muted">(65)</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 mb-3">
+                    <span class="fw-bold text-primary">$2856.3</span>
+                    <span
+                      class="text-muted text-decoration-line-through extra-small"
+                      >$3225.6</span
+                    >
+                  </div>
+                 <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(10)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+              >
+                <div class="text-center my-2" style="height: 140px">
+                  <img
+                    src="./images/sp4.png"
+                    class="mw-100 mh-100 object-fit-contain"
+                    alt="Product"
+                  />
+                </div>
+                <div
+                  class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+                  style="font-size: 10px"
+                >
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Day</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Hour</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Min</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Sec</span
+                    >
+                  </div>
+                </div>
+                <div class="mt-auto">
+                  <span class="text-muted extra-small d-block">Apple</span>
+                  <h6 class="card-title text-truncate-2 small fw-bold mb-1">
+                    2022 Apple iMac with Retina 5K Display 8GB RAM...
+                  </h6>
+                  <div class="text-warning extra-small mb-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <span class="text-muted">(65)</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 mb-3">
+                    <span class="fw-bold text-primary">$2856.3</span>
+                    <span
+                      class="text-muted text-decoration-line-through extra-small"
+                      >$3225.6</span
+                    >
+                  </div>
+                  <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+              >
+                <div class="text-center my-2" style="height: 140px">
+                  <img
+                    src="./images/sp2.png"
+                    class="mw-100 mh-100 object-fit-contain"
+                    alt="Product"
+                  />
+                </div>
+                <div
+                  class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+                  style="font-size: 10px"
+                >
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Day</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Hour</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Min</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Sec</span
+                    >
+                  </div>
+                </div>
+                <div class="mt-auto">
+                  <span class="text-muted extra-small d-block">Apple</span>
+                  <h6 class="card-title text-truncate-2 small fw-bold mb-1">
+                    2022 Apple iMac with Retina 5K Display 8GB RAM...
+                  </h6>
+                  <div class="text-warning extra-small mb-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+
+                    <span class="text-muted">(65)</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 mb-3">
+                    <span class="fw-bold text-primary">$2856.3</span>
+                    <span
+                      class="text-muted text-decoration-line-through extra-small"
+                      >$3225.6</span
+                    >
+                  </div>
+                 <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(2)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+              >
+                <div class="text-center my-2" style="height: 140px">
+                  <img
+                    src="./images/sp1.png"
+                    class="mw-100 mh-100 object-fit-contain"
+                    alt="Product"
+                  />
+                </div>
+                <div
+                  class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+                  style="font-size: 10px"
+                >
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Day</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Hour</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Min</span
+                    >
+                  </div>
+                  <div class="bg-warning rounded px-1">
+                    00<br /><span class="fw-normal" style="font-size: 8px"
+                      >Sec</span
+                    >
+                  </div>
+                </div>
+                <div class="mt-auto">
+                  <span class="text-muted extra-small d-block">Apple</span>
+                  <h6 class="card-title text-truncate-2 small fw-bold mb-1">
+                    2022 Apple iMac with Retina 5K Display 8GB RAM...
+                  </h6>
+                  <div class="text-warning extra-small mb-2">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+
+                    <span class="text-muted">(65)</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2 mb-3">
+                    <span class="fw-bold text-primary">$2856.3</span>
+                    <span
+                      class="text-muted text-decoration-line-through extra-small"
+                      >$3225.6</span
+                    >
+                  </div>
+                 <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(3)">
+                Add To Cart
+
+               
+              </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container my-5">
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3 mb-4"
+      >
+        <div class="col">
+          <div
+            class="card h-100 border p-3 rounded-3 position-relative protect card"
+          >
+            <span
+              class="badge bg-warning text-white position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+              >-17%</span
+            >
+            <div class="text-center my-2" style="height: 130px">
+              <img
+                src="./images/toy9.png"
+                class="mw-100 mh-100 object-fit-contain"
+                alt="School Bus Toy"
+              />
+            </div>
+            <div
+              class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+              style="font-size: 10px"
+            >
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Day</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Hour</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Min</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Sec</span
+                >
+              </div>
+            </div>
+            <div class="mt-auto">
+              <span class="text-muted extra-small d-block">Apple</span>
+              <h6 class="card-title text-truncate-2 extra-small fw-bold mb-1">
+                2022 Apple iMac with Retina 5K Display 8GB RAM...
+              </h6>
+              <div class="text-warning extra-small mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span class="text-muted ms-1">(65)</span>
+              </div>
+              <div class="d-flex align-items-center gap-2 mb-3">
+                <span class="fw-bold text-primary">$2856.3</span>
+                <span
+                  class="text-muted text-decoration-line-through extra-small"
+                  >$3225.6</span
+                >
+              </div>
+              <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(4)">
+                Add To Cart
+
+               
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card h-100 border p-3 rounded-3 position-relative protect card"
+          >
+            <span
+              class="badge bg-warning text-white position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+              >-17%</span
+            >
+            <div class="text-center my-2" style="height: 130px">
+              <img
+                src="./images/toy1.png"
+                class="mw-100 mh-100 object-fit-contain"
+                alt="Drum Toy"
+              />
+            </div>
+            <div
+              class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+              style="font-size: 10px"
+            >
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Day</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Hour</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Min</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Sec</span
+                >
+              </div>
+            </div>
+            <div class="mt-auto">
+              <span class="text-muted extra-small d-block">Apple</span>
+              <h6 class="card-title text-truncate-2 extra-small fw-bold mb-1">
+                2022 Apple iMac with Retina 5K Display 8GB RAM...
+              </h6>
+              <div class="text-warning extra-small mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span class="text-muted ms-1">(65)</span>
+              </div>
+              <div class="d-flex align-items-center gap-2 mb-3">
+                <span class="fw-bold text-primary">$2856.3</span>
+                <span
+                  class="text-muted text-decoration-line-through extra-small"
+                  >$3225.6</span
+                >
+              </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(5)">
+                Add To Cart
+
+               
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card h-100 border p-3 rounded-3 position-relative protect card"
+          >
+            <span
+              class="badge bg-warning text-white position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+              >-17%</span
+            >
+            <div class="text-center my-2" style="height: 130px">
+              <img
+                src="./images/toy3.png"
+                class="mw-100 mh-100 object-fit-contain"
+                alt="Playset Toy"
+              />
+            </div>
+            <div
+              class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+              style="font-size: 10px"
+            >
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Day</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Hour</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Min</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Sec</span
+                >
+              </div>
+            </div>
+            <div class="mt-auto">
+              <span class="text-muted extra-small d-block">Apple</span>
+              <h6 class="card-title text-truncate-2 extra-small fw-bold mb-1">
+                2022 Apple iMac with Retina 5K Display 8GB RAM...
+              </h6>
+              <div class="text-warning extra-small mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span class="text-muted ms-1">(65)</span>
+              </div>
+              <div class="d-flex align-items-center gap-2 mb-3">
+                <span class="fw-bold text-primary">$2856.3</span>
+                <span
+                  class="text-muted text-decoration-line-through extra-small"
+                  >$3225.6</span
+                >
+              </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(6)">
+                Add To Cart
+
+               
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card h-100 border p-3 rounded-3 position-relative protect card"
+          >
+            <span
+              class="badge bg-warning text-white position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+              >-17%</span
+            >
+            <div class="text-center my-2" style="height: 130px">
+              <img
+                src="./images/toy6.png"
+                class="mw-100 mh-100 object-fit-contain"
+                alt="Spiderman Toy"
+              />
+            </div>
+            <div
+              class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+              style="font-size: 10px"
+            >
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Day</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Hour</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Min</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Sec</span
+                >
+              </div>
+            </div>
+            <div class="mt-auto">
+              <span class="text-muted extra-small d-block">Apple</span>
+              <h6 class="card-title text-truncate-2 extra-small fw-bold mb-1">
+                2022 Apple iMac with Retina 5K Display 8GB RAM...
+              </h6>
+              <div class="text-warning extra-small mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span class="text-muted ms-1">(65)</span>
+              </div>
+              <div class="d-flex align-items-center gap-2 mb-3">
+                <span class="fw-bold text-primary">$2856.3</span>
+                <span
+                  class="text-muted text-decoration-line-through extra-small"
+                  >$3225.6</span
+                >
+              </div>
+              <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(7)">
+                Add To Cart
+
+               
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card h-100 border p-3 rounded-3 position-relative protect card"
+          >
+            <span
+              class="badge bg-warning text-white position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+              >-17%</span
+            >
+            <div class="text-center my-2" style="height: 130px">
+              <img
+                src="./images/toy4.png"
+                class="mw-100 mh-100 object-fit-contain"
+                alt="Steering Wheel Toy"
+              />
+            </div>
+            <div
+              class="d-flex justify-content-center gap-1 my-2 text-center text-white fw-bold"
+              style="font-size: 10px"
+            >
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Day</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Hour</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Min</span
+                >
+              </div>
+              <div class="bg-warning rounded px-1">
+                00<br /><span class="fw-normal" style="font-size: 8px"
+                  >Sec</span
+                >
+              </div>
+            </div>
+            <div class="mt-auto">
+              <span class="text-muted extra-small d-block">Apple</span>
+              <h6 class="card-title text-truncate-2 extra-small fw-bold mb-1">
+                2022 Apple iMac with Retina 5K Display 8GB RAM...
+              </h6>
+              <div class="text-warning extra-small mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span class="text-muted ms-1">(65)</span>
+              </div>
+              <div class="d-flex align-items-center gap-2 mb-3">
+                <span class="fw-bold text-primary">$2856.3</span>
+                <span
+                  class="text-muted text-decoration-line-through extra-small"
+                  >$3225.6</span
+                >
+              </div>
+              <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(8)">
+                Add To Cart
+
+               
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="position-relative rounded-3 overflow-hidden shadow-sm"
+        style="height: 160px"
+      >
+        <img
+          src="./images/banner-ads.png"
+          class="w-100 h-100 object-fit-cover"
+          alt="Shop For Kids Accessories & Gifts"
+        />
+        <div
+          class="position-absolute top-50 start-50 translate-middle text-center text-dark w-100 px-3"
+        >
+          <span
+            class="extra-small text-uppercase fw-semibold tracking-wider d-block mb-1 opacity-75"
+            >Exclusively High Quality Products</span
+          >
+          <h3 class="fw-bold mb-0">Shop For Kids Accessories & Gifts</h3>
+        </div>
+      </div>
+    </section>
+    <section class="container my-5">
+      <div
+        class="d-flex flex-wrap justify-content-between align-items-end mb-4 border-bottom pb-3"
+      >
+        <div>
+          <h3 class="fw-bold mb-1" style="color: #425a8b">Kid Fashion</h3>
+          <p class="text-muted extra-small mb-0">
+            Clothes, Bags, Shoes, Accessory...
+          </p>
+        </div>
+
+        <div class="d-flex align-items-center gap-4">
+          <ul
+            class="nav nav-pills gap-3 d-none d-md-flex extra-small fw-semibold"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active bg-transparent text-primary p-0 border-bottom border-2 border-primary rounded-0"
+                href="#"
+                >ALL</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted p-0" href="#">BEST SELLER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted p-0" href="#">MOST VIEWED</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted p-0" href="#">TOP BRANDS</a>
+            </li>
+          </ul>
+
+          <div class="d-flex gap-1">
+            <button
+              class="btn btn-outline-secondary btn-sm rounded-circle p-0 d-flex align-items-center justify-content-center"
+              style="width: 30px; height: 30px"
+              type="button"
+              data-bs-target="#kidFashionCarousel"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-chevron-left extra-small"></i>
+            </button>
+            <button
+              class="btn btn-outline-secondary btn-sm rounded-circle p-0 d-flex align-items-center justify-content-center"
+              style="width: 30px; height: 30px"
+              type="button"
+              data-bs-target="#kidFashionCarousel"
+              data-bs-slide="next"
+            >
+              <i class="fa-solid fa-chevron-right extra-small"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="kidFashionCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="4000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-5 g-3">
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <span
+                    class="badge bg-danger position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+                    >-17%</span
+                  >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion1.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Amish</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <span
+                    class="badge bg-danger position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+                    >Hot</span
+                  >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion2.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Amish</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <span
+                    class="badge bg-success position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+                    >New</span
+                  >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion5.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion6.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion8.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <span
+                    class="badge bg-warning position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+                    >-17%</span
+                  >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion9.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <span
+                    class="badge bg-danger position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+                    >Hot</span
+                  >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion10.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <span
+                    class="badge bg-success position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+                    >New</span
+                  >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion1.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion2.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion5.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-5 g-3">
+              <!-- Card 1 -->
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <span
+                    class="badge bg-danger position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+                    >-17%</span
+                  >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion6.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Amish</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <span
+                    class="badge bg-danger position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+                    >Hot</span
+                  >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion8.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Amish</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <span
+                    class="badge bg-success position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+                    >New</span
+                  >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion9.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion10.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion1.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <span
+                    class="badge bg-warning position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+                    >-17%</span
+                  >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion2.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <span
+                    class="badge bg-danger position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+                    >Hot</span
+                  >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion5.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <span
+                    class="badge bg-success position-absolute top-0 start-0 m-2 px-2 py-1 extra-small"
+                    >New</span
+                  >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion6.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion8.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="card h-100 border p-3 rounded-3 position-relative deal-product-card"
+                >
+                  <div class="text-center my-2" style="height: 140px">
+                    <img
+                      src="./images/fashion9.png"
+                      class="mw-100 mh-100 object-fit-contain"
+                      alt="Fashion Item"
+                    />
+                  </div>
+                  <div class="mt-auto">
+                    <span class="text-muted extra-small d-block">Apple</span>
+                    <h6
+                      class="card-title text-truncate-2 extra-small fw-bold mb-1"
+                    >
+                      Amish Simple Mission Wooden Kitchen Chair
+                    </h6>
+                    <div class="extra-small mb-2">
+                      <i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i
+                      ><i class="fa-solid fa-star text-warning"></i>
+                      <span class="text-muted ms-1">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="fw-bold text-primary">$2856.3</span>
+                      <span
+                        class="text-muted text-decoration-line-through extra-small"
+                        >$3225.6</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 bg-white">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <div>
+            <h3 class="fw-bold  mb-1" style="color: #425a8b;">Latest News & Events</h3>
+            <p class="text-muted small mb-0">From our blog, forum</p>
+          </div>
+          <div class="d-flex gap-2">
+            <button class="btn btn-outline-secondary btn-sm px-2 py-1">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="btn btn-outline-secondary btn-sm px-2 py-1">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="row g-4 mb-5">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div
+              class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden"
+            >
+              <img
+                src="./images/news2.png"
+                class="card-img-top object-fit-cover"
+                alt="News Image"
+                style="height: 180px"
+              />
+              <div class="card-body p-3">
+                <span
+                  class="badge bg-primary-subtle text-primary mb-2 fw-normal px-2 py-1"
+                  style="font-size: 11px"
+                  >News</span
+                >
+                <h6 class="card-title fw-bold text-dark mb-2 lh-base">
+                  <a href="#" class="text-decoration-none text-dark"
+                    >The latest technologies to be used for VR in 2022</a
+                  >
+                </h6>
+                <div
+                  class="d-flex gap-3 text-muted small"
+                  style="font-size: 12px"
+                >
+                  <span>August 30, 2022</span>
+                  <span>• 5 Mins read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div
+              class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden"
+            >
+              <img
+                src="./images/news3 (1).png"
+                class="card-img-top object-fit-cover"
+                alt="News Image"
+                style="height: 180px"
+              />
+              <div class="card-body p-3">
+                <span
+                  class="badge bg-primary-subtle text-primary mb-2 fw-normal px-2 py-1"
+                  style="font-size: 11px"
+                  >News</span
+                >
+                <h6 class="card-title fw-bold text-dark mb-2 lh-base">
+                  <a href="#" class="text-decoration-none text-dark"
+                    >The latest technologies to be used for VR in 2022</a
+                  >
+                </h6>
+                <div
+                  class="d-flex gap-3 text-muted small"
+                  style="font-size: 12px"
+                >
+                  <span>August 30, 2022</span>
+                  <span>• 5 Mins read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div
+              class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden"
+            >
+              <img
+                src="./images/news3.png"
+                class="card-img-top object-fit-cover"
+                alt="News Image"
+                style="height: 180px"
+              />
+              <div class="card-body p-3">
+                <span
+                  class="badge bg-primary-subtle text-primary mb-2 fw-normal px-2 py-1"
+                  style="font-size: 11px"
+                  >News</span
+                >
+                <h6 class="card-title fw-bold text-dark mb-2 lh-base">
+                  <a href="#" class="text-decoration-none text-dark"
+                    >The latest technologies to be used for VR in 2022</a
+                  >
+                </h6>
+                <div
+                  class="d-flex gap-3 text-muted small"
+                  style="font-size: 12px"
+                >
+                  <span>August 30, 2022</span>
+                  <span>• 5 Mins read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div
+              class="card h-100 border-0 shadow-sm rounded-3 overflow-hidden"
+            >
+              <img
+                src="./images/news4.png"
+                class="card-img-top object-fit-cover"
+                alt="News Image"
+                style="height: 180px"
+              />
+              <div class="card-body p-3">
+                <span
+                  class="badge bg-primary-subtle text-primary mb-2 fw-normal px-2 py-1"
+                  style="font-size: 11px"
+                  >Tips</span
+                >
+                <h6 class="card-title fw-bold text-dark mb-2 lh-base">
+                  <a href="#" class="text-decoration-none text-dark"
+                    >The latest technologies to be used for VR in 2022</a
+                  >
+                </h6>
+                <div
+                  class="d-flex gap-3 text-muted small"
+                  style="font-size: 12px"
+                >
+                  <span>August 30, 2022</span>
+                  <span>• 5 Mins read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4 pt-4 border-top">
+          <div class="col-6 col-md-4 col-lg flex-grow-1">
+            <div class="d-flex align-items-center gap-3">
+              <i class="fa-solid fa-truck-fast text-primary fs-2"></i>
+              <div>
+                <h6 class="fw-bold mb-0 text-dark small">Free Delivery</h6>
+                <span class="text-muted small" style="font-size: 12px"
+                  >From all orders over $10</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg flex-grow-1">
+            <div class="d-flex align-items-center gap-3">
+              <i class="fa-solid fa-headset text-primary fs-2"></i>
+              <div>
+                <h6 class="fw-bold mb-0 text-dark small">Support 24/7</h6>
+                <span class="text-muted small" style="font-size: 12px"
+                  >Shop with an expert</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg flex-grow-1">
+            <div class="d-flex align-items-center gap-3">
+              <i class="fa-solid fa-gift text-primary fs-2"></i>
+              <div>
+                <h6 class="fw-bold mb-0 text-dark small">Gift voucher</h6>
+                <span class="text-muted small" style="font-size: 12px"
+                  >Refer a friend</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg flex-grow-1">
+            <div class="d-flex align-items-center gap-3">
+              <i class="fa-solid fa-rotate-left text-primary fs-2"></i>
+              <div>
+                <h6 class="fw-bold mb-0 text-dark small">Return & Refund</h6>
+                <span class="text-muted small" style="font-size: 12px"
+                  >Free return over $200</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg flex-grow-1">
+            <div class="d-flex align-items-center gap-3">
+              <i class="fa-solid fa-shield-halved text-primary fs-2"></i>
+              <div>
+                <h6 class="fw-bold mb-0 text-dark small">Secure payment</h6>
+                <span class="text-muted small" style="font-size: 12px"
+                  >100% Protected</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <footer class="footer bg-light pt-5 border-top">
+      <div class="container mb-5">
+        <div
+          class="p-4 p-md-5 rounded-4 position-relative overflow-hidden"
+          style="background-color: #425a8b; color: #fff"
+        >
+          <div class="row align-items-center g-3 position-relative z-2">
+            <div class="col-lg-6">
+              <h4 class="fw-bold mb-1">Subscribe & Get 10% Discount</h4>
+              <p class="text-white-50 small mb-0">
+                Get E-mail updates about our latest shop and special offers.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <form class="d-flex gap-2">
+                <input
+                  type="email"
+                  class="form-control form-control-lg fs-6"
+                  placeholder="Your email address..."
+                  required
+                />
+                <button
+                  class="btn btn-warning btn-lg text-white fw-bold px-4 flex-shrink-0"
+                  type="submit"
+                  style="background-color: #ff6b35; border: none"
+                >
+                  Sign Up
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-4">
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-3">
+            <h6 class="fw-bold mb-3 text-dark">Contact</h6>
+            <p class="text-muted small mb-2">
+              <strong>Address:</strong> 502 New Design Str, Melbourne, San
+              Francisco, CA 94110, United States
+            </p>
+            <p class="text-muted small mb-2">
+              <strong>Phone:</strong> (+01) 123-456-789
+            </p>
+            <p class="text-muted small mb-2">
+              <strong>E-mail:</strong> contact@ecom-market.com
+            </p>
+            <p class="text-muted small mb-3">
+              <strong>Hours:</strong> 8:00 - 17:00, Mon - Sat
+            </p>
+            <div class="d-flex gap-2 text-primary">
+              <a href="#" class="btn btn-sm btn-outline-primary rounded-circle"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="btn btn-sm btn-outline-primary rounded-circle"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="#" class="btn btn-sm btn-outline-primary rounded-circle"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="btn btn-sm btn-outline-primary rounded-circle"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <h6 class="fw-bold mb-3 text-dark">Information</h6>
+            <ul
+              class="list-unstyled small text-muted d-flex flex-column gap-2 mb-0"
+            >
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Our Team</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Careers</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Press & Media</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Advertising</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Testimonials</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <h6 class="fw-bold mb-3 text-dark">Company</h6>
+            <ul
+              class="list-unstyled small text-muted d-flex flex-column gap-2 mb-0"
+            >
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Our Blog</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Plans & Pricing</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Knowledge Base</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Cookie Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Office Center</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› News & Events</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <h6 class="fw-bold mb-3 text-dark">My account</h6>
+            <ul
+              class="list-unstyled small text-muted d-flex flex-column gap-2 mb-0"
+            >
+              <li>
+                <a href="#" class="text-decoration-none text-muted">› FAQs</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Editor Help</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Community</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Live Chatting</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Support Center</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-3 col-lg-3">
+            <h6 class="fw-bold mb-3 text-dark">App & Payment</h6>
+            <p class="text-muted small mb-3">
+              Download our Apps and get extra 15% Discount on your first
+              Order...!
+            </p>
+            <div class="d-flex gap-2 mb-3">
+              <a href="#"
+                ><img
+                  src="./images/Ecom - Ecom Marketplace Template_files/google-play.png"
+                  alt="Google Play"
+                  style="height: 35px"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/appstore.png"
+                  alt="App Store"
+                  style="height: 35px"
+              /></a>
+            </div>
+            <p class="text-muted small mb-1">Secured Payment Gateways</p>
+            <div class="d-flex gap-2 align-items-center fs-4 text-secondary">
+              <img
+                src="./images/Ecom - Ecom Marketplace Template_files/payment-method.png"
+                alt="Payment Methods"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-4 border-top" style="background-color: #eef2f5">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
+            <h4 class="fw-bold text-primary mb-0 me-3">
+              <img src="./images/logo.svg" alt="Logo" />
+            </h4>
+            <div class="d-flex flex-wrap gap-3 small text-muted">
+              <a href="#" class="text-muted text-decoration-none"
+                >EcomMarket.com</a
+              >
+              |
+              <a href="#" class="text-muted text-decoration-none"
+                >Ecom Partners</a
+              >
+              |
+              <a href="#" class="text-muted text-decoration-none"
+                >Ecom Business</a
+              >
+              |
+              <a href="#" class="text-muted text-decoration-none"
+                >Ecom Factory</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="small text-muted mb-3"
+            style="font-size: 13px; line-height: 1.8"
+          >
+            <span class="fw-bold text-dark me-2">Electronic:</span>
+            <a href="#" class="text-muted text-decoration-none">Cell Phones</a>
+            |
+            <a href="#" class="text-muted text-decoration-none me-2 ms-2"
+              >Headphones</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none me-2 ms-2"
+              >Television & Video</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none me-2 ms-2"
+              >Game Controller</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Apple Watch</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >HTC</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Ipad</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Keyboard</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Samsung</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Wireless Speaker</a
+            >
+            <br />
+            <span class="fw-bold text-dark me-2">Furniture:</span>
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Sofa</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Chair</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Dining Table</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Living Room</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Table Lamp</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Night Stand</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Computer Desk</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Bar Table</a
+            >
+          </div>
+
+          <div
+            class="d-flex flex-wrap justify-content-between align-items-center small text-muted border-top pt-3"
+            style="font-size: 12px"
+          >
+            <span>Copyright 2022 Ecom Market. All rights reserved.</span>
+            <div class="d-flex gap-3">
+              <a href="#" class="text-muted text-decoration-none"
+                >Conditions of Use</a
+              >
+              <a href="#" class="text-muted text-decoration-none"
+                >Privacy Notice</a
+              >
+              <a href="#" class="text-muted text-decoration-none"
+                >Interest-Based Ads</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+     <a href="#" 
+    id="back-to-top"
+
+    class="btn  position-fixed bottom-0 end-0 m-3 rounded-circle"
+    style="display: none; background-color:#425A8B">
+    <i class="fa fa-arrow-up" ></i></a>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
